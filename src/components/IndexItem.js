@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ItemService from './ItemService';
 import axios from 'axios';
 import TableRow from './TableRow';
+import Container from './Container';
 
 class IndexItem extends Component {
     
@@ -30,6 +31,7 @@ class IndexItem extends Component {
     render() {
         return (
             <div className="container">
+            <Container />
                 <table className="table table-striped">
                     <thead>
                         <tr>
