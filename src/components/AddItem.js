@@ -26,11 +26,25 @@ class AddItem extends Component {
             <div className="container1">
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                        Add Item:
+                        Add Item to List:
                         <input type="text" value={this.state.value} onChange={this.handleChange} className="form-control"/>
                     </label><br />
                     <input type="submit" value="Submit" className="btn btn-primary"/>
                 </form>
+                <form onSubmit={this.handleSubmit}>
+                <label>
+                Username:
+                    <input type="text" value={this.state.value} onChange={this.handleChange} className="form-control"/>
+                </label><br />
+                <input type="submit" value="Submit" className="btn btn-primary"/>
+            </form>
+            <form onSubmit={this.handleSubmit}>
+            <label>
+                Password:
+                <input type="text" value={this.state.value} onChange={this.handleChange} className="form-control"/>
+            </label><br />
+            <input type="submit" value="Submit" className="btn btn-primary"/>
+        </form>
             </div>
         );
     }
