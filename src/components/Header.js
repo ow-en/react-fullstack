@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
-            <div>
-                <Link to="/"><h1>Yelp</h1></Link>
+            <div className="topbar">
+                <Link to="/index"><h1>Layover</h1></Link>
                 <section>
                     Final Project
                 </section>

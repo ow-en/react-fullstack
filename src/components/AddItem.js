@@ -18,12 +18,12 @@ class AddItem extends Component {
     handleSubmit(event) {
         event.preventDefault();
         this.addItemService.sendData(this.state.value);
-        this.props.history.push('/');
+        this.props.history.push('/index');
     }
 
     render() {
         return (
-            <div className="container">
+            <div className="container1">
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Add Item:
